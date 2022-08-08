@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-color: lightblue;
+  font-family: fantasy;
+}
+
+.form {
+  background-color: lightgrey;
+  padding: 20px;
+  box-shadow: 0 4px 8px slateblue;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border: solid 5px;
+}
+
+.input::placeholder {
+  color: lightgray;
+  font-family: fantasy;
+}
+
+.butt {
+  background-color: slateblue;
+  color: white;
+  font-family: fantasy;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: auto;
+  margin: 5px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px slateblue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.butt::hover {
+  filter: brightness(0.9);
+}
+
+.score {
+  color: slateblue;
+  text-align: center;
+}
